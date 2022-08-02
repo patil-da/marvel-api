@@ -1,1 +1,78 @@
+html, 
+body {
+  background: #000 url('images/marvelbg.jpg') no-repeat center center/cover;
+  height: 200vh;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.header img {
+  width: 200px;
+  height: 80px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.routes{
+  padding: 20px;
+}
+
+.search-character{
+  margin-right: 20px;
+  width: 250px;
+}
+
+.pagination {
+  margin: 20px auto 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.character-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.character-image {
+  margin: 20px 20px;
+}
+
+.character-profile {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.option-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.details-panel {
+  margin-left: 20px;
+}
+
+.loading-spin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
